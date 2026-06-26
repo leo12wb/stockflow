@@ -1,0 +1,29 @@
+# Claude
+.claude/
+
+# Binaries
+/server
+/tmp
+*.exe
+
+# Environment
+.env
+.env.*
+!.env.example
+
+# Swagger gerado (regenerado no build)
+docs/
+
+# IDE
+.idea/
+.vscode/
+
+# Logs
+*.log
+
+# Go
+vendor/
+
+# OS
+.DS_Store
+Thumbs.db

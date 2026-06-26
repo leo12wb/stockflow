@@ -1,0 +1,28 @@
+# Claude
+.claude/
+
+# Dependências
+node_modules/
+
+# Build gerado
+dist/
+.output/
+
+# Variáveis de ambiente
+.env
+.env.*
+!.env.example
+
+# Cache Vite
+.vite/
+
+# TypeScript
+*.tsbuildinfo
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db

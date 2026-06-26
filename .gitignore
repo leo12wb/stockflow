@@ -1,0 +1,57 @@
+# Claude
+.claude/
+
+# ========================
+# Backend — estoque-api
+# ========================
+
+# Binário compilado
+estoque-api/server
+estoque-api/*.exe
+
+# Variáveis de ambiente
+estoque-api/.env
+estoque-api/.env.*
+!estoque-api/.env.example
+
+# Swagger gerado (regenerado no build)
+estoque-api/docs/
+
+# Go
+estoque-api/vendor/
+
+# ========================
+# Frontend — estoque-front
+# ========================
+
+# Dependências
+estoque-front/node_modules/
+
+# Build gerado
+estoque-front/dist/
+estoque-front/.output/
+
+# Variáveis de ambiente
+estoque-front/.env
+estoque-front/.env.*
+!estoque-front/.env.example
+
+# Cache Vite
+estoque-front/.vite/
+
+# ========================
+# Sistema operacional
+# ========================
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ========================
+# IDEs e editores
+# ========================
+.vscode/
+.idea/
+*.suo
+*.user
+*.swp
+*.swo
